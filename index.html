@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Etch a Sketch</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h4>Etch a Sketch | John Leenard B. Zarate</h4>
+        <div class="parent">
+            <div class="div1"> 
+                <input type="color" id="colorInput">
+                <button class="btn" id="colormode">Color Mode</button>
+                <button class="btn" id="rainbow">Rainbow</button>
+                <button class="btn" id="eraser">Eraser</button>
+                <button class="btn" id="clear">Clear</button>
+                <label for="slider" id="value">no of boxes: </label>
+                <input type="range" id="slider" name="slider" min="3" max="100" value="3">
+
+            </div>
+            <div class="div2"> 
+                <div id="canvasDiv" class="canvas" style="grid-template-columns:repeat(3, 1fr) ;grid-template-rows:repeat(3, 1fr);">
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
